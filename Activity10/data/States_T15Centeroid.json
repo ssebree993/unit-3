@@ -1,0 +1,86 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "STATEFP" : "STATEFP",
+    "STATENS" : "STATENS",
+    "AFFGEOID" : "AFFGEOID",
+    "GEOID" : "GEOID",
+    "STUSPS" : "STUSPS",
+    "NAME" : "NAME",
+    "LSAD" : "LSAD",
+    "ALAND" : "ALAND",
+    "AWATER" : "AWATER",
+    "ORIG_FID" : "ORIG_FID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "STATEFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "STATEFP",
+      "length" : 2
+    },
+    {
+      "name" : "STATENS",
+      "type" : "esriFieldTypeString",
+      "alias" : "STATENS",
+      "length" : 8
+    },
+    {
+      "name" : "AFFGEOID",
+      "type" : "esriFieldTypeString",
+      "alias" : "AFFGEOID",
+      "length" : 11
+    },
+    {
+      "name" : "GEOID",
+      "type" : "esriFieldTypeString",
+      "alias" : "GEOID",
+      "length" : 2
+    },
+    {
+      "name" : "STUSPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "STUSPS",
+      "length" : 2
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 100
+    },
+    {
+      "name" : "LSAD",
+      "type" : "esriFieldTypeString",
+      "alias" : "LSAD",
+      "length" : 2
+    },
+    {
+      "name" : "ALAND",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "ALAND"
+    },
+    {
+      "name" : "AWATER",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "AWATER"
+    },
+    {
+      "name" : "ORIG_FID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "ORIG_FID"
+    }
+  ],
+  "features" : [{"attributes":{"OBJECTID":1,"STATEFP":"19","STATENS":"01779785","AFFGEOID":"0400000US19","GEOID":"19","STUSPS":"IA","NAME":"Iowa","LSAD":"00","ALAND":144661267977,"AWATER":1084180812,"ORIG_FID":1},"geometry":{"x":-93.498967720999985,"y":42.074924263000071}},{"attributes":{"OBJECTID":2,"STATEFP":"31","STATENS":"01779792","AFFGEOID":"0400000US31","GEOID":"31","STUSPS":"NE","NAME":"Nebraska","LSAD":"00","ALAND":198956658395,"AWATER":1371829134,"ORIG_FID":2},"geometry":{"x":-99.810273731999985,"y":41.527199891000066}},{"attributes":{"OBJECTID":3,"STATEFP":"05","STATENS":"00068085","AFFGEOID":"0400000US05","GEOID":"05","STUSPS":"AR","NAME":"Arkansas","LSAD":"00","ALAND":134768872727,"AWATER":2962859592,"ORIG_FID":3},"geometry":{"x":-92.43786008699999,"y":34.900023168000075}},{"attributes":{"OBJECTID":4,"STATEFP":"35","STATENS":"00897535","AFFGEOID":"0400000US35","GEOID":"35","STUSPS":"NM","NAME":"New Mexico","LSAD":"00","ALAND":314196306401,"AWATER":728776523,"ORIG_FID":4},"geometry":{"x":-106.10837157699996,"y":34.421420296000065}},{"attributes":{"OBJECTID":5,"STATEFP":"48","STATENS":"01779801","AFFGEOID":"0400000US48","GEOID":"48","STUSPS":"TX","NAME":"Texas","LSAD":"00","ALAND":676653171537,"AWATER":19006305260,"ORIG_FID":5},"geometry":{"x":-99.332329689999938,"y":31.46200998300003}},{"attributes":{"OBJECTID":6,"STATEFP":"29","STATENS":"01779791","AFFGEOID":"0400000US29","GEOID":"29","STUSPS":"MO","NAME":"Missouri","LSAD":"00","ALAND":178050802184,"AWATER":2489425460,"ORIG_FID":6},"geometry":{"x":-92.477897361999965,"y":38.368477703000053}},{"attributes":{"OBJECTID":7,"STATEFP":"22","STATENS":"01629543","AFFGEOID":"0400000US22","GEOID":"22","STUSPS":"LA","NAME":"Louisiana","LSAD":"00","ALAND":111897594374,"AWATER":23753621895,"ORIG_FID":7},"geometry":{"x":-91.945497080999985,"y":31.020181391000051}},{"attributes":{"OBJECTID":8,"STATEFP":"30","STATENS":"00767982","AFFGEOID":"0400000US30","GEOID":"30","STUSPS":"MT","NAME":"Montana","LSAD":"00","ALAND":376962738765,"AWATER":3869208832,"ORIG_FID":8},"geometry":{"x":-109.64304564399998,"y":47.034339091000049}},{"attributes":{"OBJECTID":9,"STATEFP":"27","STATENS":"00662849","AFFGEOID":"0400000US27","GEOID":"27","STUSPS":"MN","NAME":"Minnesota","LSAD":"00","ALAND":206228939448,"AWATER":18945217189,"ORIG_FID":9},"geometry":{"x":-94.30634469599994,"y":46.317938093000066}},{"attributes":{"OBJECTID":10,"STATEFP":"20","STATENS":"00481813","AFFGEOID":"0400000US20","GEOID":"20","STUSPS":"KS","NAME":"Kansas","LSAD":"00","ALAND":211755344060,"AWATER":1344141205,"ORIG_FID":10},"geometry":{"x":-98.378915787999972,"y":38.485159090000025}},{"attributes":{"OBJECTID":11,"STATEFP":"38","STATENS":"01779797","AFFGEOID":"0400000US38","GEOID":"38","STUSPS":"ND","NAME":"North Dakota","LSAD":"00","ALAND":178707534813,"AWATER":4403267548,"ORIG_FID":11},"geometry":{"x":-100.46881729599994,"y":47.446325673000047}},{"attributes":{"OBJECTID":12,"STATEFP":"08","STATENS":"01779779","AFFGEOID":"0400000US08","GEOID":"08","STUSPS":"CO","NAME":"Colorado","LSAD":"00","ALAND":268422891711,"AWATER":1181621593,"ORIG_FID":12},"geometry":{"x":-105.54761169099999,"y":38.998427740000068}},{"attributes":{"OBJECTID":13,"STATEFP":"46","STATENS":"01785534","AFFGEOID":"0400000US46","GEOID":"46","STUSPS":"SD","NAME":"South Dakota","LSAD":"00","ALAND":196346981786,"AWATER":3382720225,"ORIG_FID":13},"geometry":{"x":-100.23071640599994,"y":44.435954190000075}},{"attributes":{"OBJECTID":14,"STATEFP":"40","STATENS":"01102857","AFFGEOID":"0400000US40","GEOID":"40","STUSPS":"OK","NAME":"Oklahoma","LSAD":"00","ALAND":177662925723,"AWATER":3374587997,"ORIG_FID":14},"geometry":{"x":-97.508972891999974,"y":35.584308509000039}},{"attributes":{"OBJECTID":15,"STATEFP":"56","STATENS":"01779807","AFFGEOID":"0400000US56","GEOID":"56","STUSPS":"WY","NAME":"Wyoming","LSAD":"00","ALAND":251458544898,"AWATER":1867670745,"ORIG_FID":15},"geometry":{"x":-107.55125327999997,"y":42.999638954000034}}]
+}

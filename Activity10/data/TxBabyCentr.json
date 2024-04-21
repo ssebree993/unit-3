@@ -1,0 +1,85 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "NAME" : "Name",
+    "STATE_NAME" : "State Name",
+    "STATE_ABBR" : "State Abbreviation",
+    "STATE_FIPS" : "State FIPS",
+    "COUNTY_FIPS" : "County FIPS",
+    "FIPS" : "FIPS",
+    "POPULATION" : "2020 Total Population",
+    "POP_SQMI" : "People per square mile",
+    "SQMI" : "Area in square miles",
+    "ORIG_FID" : "ORIG_FID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 50
+    },
+    {
+      "name" : "STATE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "State Name",
+      "length" : 20
+    },
+    {
+      "name" : "STATE_ABBR",
+      "type" : "esriFieldTypeString",
+      "alias" : "State Abbreviation",
+      "length" : 2
+    },
+    {
+      "name" : "STATE_FIPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "State FIPS",
+      "length" : 2
+    },
+    {
+      "name" : "COUNTY_FIPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "County FIPS",
+      "length" : 3
+    },
+    {
+      "name" : "FIPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "FIPS",
+      "length" : 5
+    },
+    {
+      "name" : "POPULATION",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "2020 Total Population"
+    },
+    {
+      "name" : "POP_SQMI",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "People per square mile"
+    },
+    {
+      "name" : "SQMI",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Area in square miles"
+    },
+    {
+      "name" : "ORIG_FID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "ORIG_FID"
+    }
+  ],
+  "features" : [{"attributes":{"OBJECTID":1,"NAME":"Aransas County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"007","FIPS":"48007","POPULATION":23830,"POP_SQMI":92.5,"SQMI":257.68000000000001,"ORIG_FID":1},"geometry":{"x":-96.991644651999991,"y":28.120259395000062}},{"attributes":{"OBJECTID":2,"NAME":"Austin County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"015","FIPS":"48015","POPULATION":30167,"POP_SQMI":46,"SQMI":656.38,"ORIG_FID":2},"geometry":{"x":-96.28358684799997,"y":29.887052088000075}},{"attributes":{"OBJECTID":3,"NAME":"Bastrop County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"021","FIPS":"48021","POPULATION":97216,"POP_SQMI":108.59999999999999,"SQMI":895.57000000000005,"ORIG_FID":3},"geometry":{"x":-97.319566237999936,"y":30.104655052000055}},{"attributes":{"OBJECTID":4,"NAME":"Bee County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"025","FIPS":"48025","POPULATION":31047,"POP_SQMI":35.299999999999997,"SQMI":880.33000000000004,"ORIG_FID":4},"geometry":{"x":-97.741194577999977,"y":28.410063526000044}},{"attributes":{"OBJECTID":5,"NAME":"Brazoria County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"039","FIPS":"48039","POPULATION":372031,"POP_SQMI":261.69999999999999,"SQMI":1421.8,"ORIG_FID":5},"geometry":{"x":-95.459607011999935,"y":29.194710280000038}},{"attributes":{"OBJECTID":6,"NAME":"Caldwell County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"055","FIPS":"48055","POPULATION":45883,"POP_SQMI":84,"SQMI":546.45000000000005,"ORIG_FID":6},"geometry":{"x":-97.630390174999945,"y":29.840874237000037}},{"attributes":{"OBJECTID":7,"NAME":"Calhoun County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"057","FIPS":"48057","POPULATION":20106,"POP_SQMI":37,"SQMI":542.99000000000001,"ORIG_FID":7},"geometry":{"x":-96.644483562999937,"y":28.471118945000057}},{"attributes":{"OBJECTID":8,"NAME":"DeWitt County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"123","FIPS":"48123","POPULATION":19824,"POP_SQMI":21.800000000000001,"SQMI":910.49000000000001,"ORIG_FID":8},"geometry":{"x":-97.362004695999985,"y":29.086095767000074}},{"attributes":{"OBJECTID":9,"NAME":"Fayette County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"149","FIPS":"48149","POPULATION":24435,"POP_SQMI":25.5,"SQMI":959.80999999999995,"ORIG_FID":9},"geometry":{"x":-96.928242306999948,"y":29.881834384000058}},{"attributes":{"OBJECTID":10,"NAME":"Fort Bend County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"157","FIPS":"48157","POPULATION":822779,"POP_SQMI":929.39999999999998,"SQMI":885.25,"ORIG_FID":10},"geometry":{"x":-95.775302918999955,"y":29.532088069000054}},{"attributes":{"OBJECTID":11,"NAME":"Goliad County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"175","FIPS":"48175","POPULATION":7012,"POP_SQMI":8.1999999999999993,"SQMI":859.37,"ORIG_FID":11},"geometry":{"x":-97.427638509999952,"y":28.654439784000033}},{"attributes":{"OBJECTID":12,"NAME":"Gonzales County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"177","FIPS":"48177","POPULATION":19653,"POP_SQMI":18.399999999999999,"SQMI":1069.8499999999999,"ORIG_FID":12},"geometry":{"x":-97.497735137999939,"y":29.46194435700005}},{"attributes":{"OBJECTID":13,"NAME":"Grimes County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"185","FIPS":"48185","POPULATION":29268,"POP_SQMI":36.5,"SQMI":801.60000000000002,"ORIG_FID":13},"geometry":{"x":-95.98288611299995,"y":30.549244857000076}},{"attributes":{"OBJECTID":14,"NAME":"Harris County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"201","FIPS":"48201","POPULATION":4731145,"POP_SQMI":2705.5,"SQMI":1748.72,"ORIG_FID":14},"geometry":{"x":-95.400190362999979,"y":29.861369689000071}},{"attributes":{"OBJECTID":15,"NAME":"Jackson County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"239","FIPS":"48239","POPULATION":14988,"POP_SQMI":17.699999999999999,"SQMI":848.63999999999999,"ORIG_FID":15},"geometry":{"x":-96.576764744999991,"y":28.949048219000076}},{"attributes":{"OBJECTID":16,"NAME":"Lavaca County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"285","FIPS":"48285","POPULATION":20337,"POP_SQMI":21,"SQMI":970.42999999999995,"ORIG_FID":16},"geometry":{"x":-96.93409679399997,"y":29.386523369000031}},{"attributes":{"OBJECTID":17,"NAME":"Lee County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"287","FIPS":"48287","POPULATION":17478,"POP_SQMI":27.600000000000001,"SQMI":634.11000000000001,"ORIG_FID":17},"geometry":{"x":-96.969391350999956,"y":30.317448138000032}},{"attributes":{"OBJECTID":18,"NAME":"Matagorda County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"321","FIPS":"48321","POPULATION":36255,"POP_SQMI":32.200000000000003,"SQMI":1125.3800000000001,"ORIG_FID":18},"geometry":{"x":-95.985696208999968,"y":28.870099560000028}},{"attributes":{"OBJECTID":19,"NAME":"Montgomery County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"339","FIPS":"48339","POPULATION":620443,"POP_SQMI":576.10000000000002,"SQMI":1076.8800000000001,"ORIG_FID":19},"geometry":{"x":-95.503023320999944,"y":30.304170173000045}},{"attributes":{"OBJECTID":20,"NAME":"Nueces County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"355","FIPS":"48355","POPULATION":353178,"POP_SQMI":415.89999999999998,"SQMI":849.25,"ORIG_FID":20},"geometry":{"x":-97.636137798999982,"y":27.726055862000067}},{"attributes":{"OBJECTID":21,"NAME":"Refugio County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"391","FIPS":"48391","POPULATION":6741,"POP_SQMI":8.6999999999999993,"SQMI":778.71000000000004,"ORIG_FID":21},"geometry":{"x":-97.159005961999981,"y":28.320929632000059}},{"attributes":{"OBJECTID":22,"NAME":"San Patricio County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"409","FIPS":"48409","POPULATION":68755,"POP_SQMI":97.599999999999994,"SQMI":704.75,"ORIG_FID":22},"geometry":{"x":-97.511342641999988,"y":28.00346828000005}},{"attributes":{"OBJECTID":23,"NAME":"Victoria County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"469","FIPS":"48469","POPULATION":91319,"POP_SQMI":102.8,"SQMI":887.98000000000002,"ORIG_FID":23},"geometry":{"x":-96.972429802999955,"y":28.796180443000026}},{"attributes":{"OBJECTID":24,"NAME":"Waller County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"473","FIPS":"48473","POPULATION":56794,"POP_SQMI":109.7,"SQMI":517.86000000000001,"ORIG_FID":24},"geometry":{"x":-95.993680199999972,"y":30.012095389000024}},{"attributes":{"OBJECTID":25,"NAME":"Washington County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"477","FIPS":"48477","POPULATION":35805,"POP_SQMI":57.600000000000001,"SQMI":621.75,"ORIG_FID":25},"geometry":{"x":-96.406115727999975,"y":30.218997223000031}},{"attributes":{"OBJECTID":26,"NAME":"Wharton County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"481","FIPS":"48481","POPULATION":41570,"POP_SQMI":38,"SQMI":1094.3699999999999,"ORIG_FID":26},"geometry":{"x":-96.22941719399995,"y":29.277780945000075}},{"attributes":{"OBJECTID":27,"NAME":"Colorado County","STATE_NAME":"Texas","STATE_ABBR":"TX","STATE_FIPS":"48","COUNTY_FIPS":"089","FIPS":"48089","POPULATION":20557,"POP_SQMI":21.100000000000001,"SQMI":973.67999999999995,"ORIG_FID":27},"geometry":{"x":-96.534967344999984,"y":29.621498901000052}}]
+}
