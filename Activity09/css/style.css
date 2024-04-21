@@ -1,0 +1,37 @@
+.map {
+    border: medium solid #999;
+}
+.states{
+    fill: #e7d5d5;
+    fill-opacity: 75;
+    stroke: #686461;
+    stroke-width: 1px;
+
+}
+
+/*Example 2.4*/
+.regions {
+    fill: none;
+    stroke: #0c09c7;
+    stroke-width: 2px;
+}
+
+.countries {
+    fill: none;
+    stroke: #686461;
+    stroke-width: 2px;
+}
+.map {
+    border: medium solid #999;
+}
+
+/*Example 2.7*/
+.gratLines {
+    fill: none;
+    stroke: #f8f6f6;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: #9ba5af9d; ;
+}
